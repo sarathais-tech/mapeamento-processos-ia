@@ -14,5 +14,37 @@
         "data_hora": "2026-04-10 15:32:00",
         "tela": "Tela de login",
         "sequencia": 2
+    },
+    {
+        "usuario": "Sara",
+        "contexto": "Brasil",
+        "acao": "Acessar sistema",
+        "data_hora": "2026-04-10 15:38:06",
+        "tela": "Tela inicial",
+        "sequencia": 1
+    },
+    {
+        "usuario": "Sara",
+        "contexto": "Brasil",
+        "acao": "Realizar login",
+        "data_hora": "2026-04-10 15:38:06",
+        "tela": "Tela de login",
+        "sequencia": 2
+    },
+    {
+        "usuario": "Sara",
+        "contexto": "Brasil",
+        "acao": "Preencher formulário",
+        "data_hora": "2026-04-10 15:38:06",
+        "tela": "Módulo de cadastro",
+        "sequencia": 3
+    },
+    {
+        "usuario": "Sara",
+        "contexto": "Brasil",
+        "acao": "Salvar dados",
+        "data_hora": "2026-04-10 15:38:06",
+        "tela": "Módulo de cadastro",
+        "sequencia": 4
     }
 ]
