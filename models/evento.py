@@ -12,7 +12,7 @@ class Evento:
     sequencia: int
 
     @staticmethod
-    def criar(usuario, contexto, acao, tela, sequencia):
+    def criar(usuario: str, contexto: str, acao: str, tela: str, sequencia: int):
         return Evento(
             usuario=usuario,
             contexto=contexto,

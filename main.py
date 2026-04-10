@@ -5,19 +5,28 @@ from services.capturador import Capturador
 def main():
     capturador = Capturador()
 
-    evento = Evento.criar(
+    evento1 = Evento.criar(
         usuario="Sara",
         contexto="Brasil",
-        acao="Login no sistema",
-        tela="Tela de login",
+        acao="Acessar sistema",
+        tela="Tela inicial",
         sequencia=1
     )
 
-    capturador.salvar(evento)
+    evento2 = Evento.criar(
+        usuario="Sara",
+        contexto="Brasil",
+        acao="Realizar login",
+        tela="Tela de login",
+        sequencia=2
+    )
+
+    capturador.salvar(evento1)
+    capturador.salvar(evento2)
 
     print("Eventos registrados:")
-    for e in capturador.listar():
-        print(e)
+    for evento in capturador.listar():
+        print(evento)
 
 
 if __name__ == "__main__":
